@@ -42,7 +42,76 @@
 
 	<style type="text/css">
 
+.geral{
+	background-color: #fff;
+}
 
+.titulo{
+	text-align: center;
+
+}
+
+.titulo h1{
+	margin-top: 8%;
+	text-transform: uppercase;
+}
+
+h3{
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 2%;
+
+}
+
+h2{
+	color: black;
+}
+
+.logo{
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	margin-top: 1%;
+
+}
+
+.rodape{
+	background: #666;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	padding-top: 30px;
+}
+
+.rodape{
+	margin-top: 10px;
+}
+
+.hrodape1{
+	color: black;
+}
+ 
+ h2{
+ 	text-align: center;
+ }
+
+ hr{
+ 	border: 2px solid;
+ }
+
+ h4{
+ 	color: black;
+ }
+
+ p{
+ 	color: gray;
+ }
+
+ A{
+ 	text-decoration: none;
+ }
 	</style>
 
 
