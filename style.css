@@ -28,9 +28,11 @@ h3{
 	left: 2%;
 
 }
+ 
 
 h2{
 	color: black;
+	text-align: left;
 }
 
 .logo{
@@ -74,6 +76,6 @@ h2{
  	color: gray;
  }
 
- A{
+ a{
  	text-decoration: none;
  }
