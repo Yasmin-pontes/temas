@@ -21,8 +21,8 @@
 			</a>
 		</div>
 		<div class="col-md-9 titulo">
-		<h1><i>ARTICUNO NOTICIAS</i></h1>
-		<p>as maiores noticias em primeira mão</p>
+		<h1><i> ✰ MADOKA MAGICA ✰</i></h1>
+		<p>~ Bem Vindo ao mundo das garotas magicas ~</p>
 
 	</div>
 	</div>
@@ -38,18 +38,6 @@
 
 
 
-
-
-<<<<<<< HEAD
-=======
-	<style type="text/css">
-
-	</style>
-
-
-
-
->>>>>>> 0c9fd055fdee6e549eaf62580326ecf6a91c0f8e
 
 
 

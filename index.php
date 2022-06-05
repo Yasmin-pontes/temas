@@ -1,73 +1,72 @@
 <?php get_header();  ?>
- <div class="row">
+<body>
+ <div class="row forma">
  	<div class="col-md-12">
  		<div class="jumbotron">
                 <hr>
             <br>
             <br>
- 			<h2> Acontecimentos da semana</h2>
+ 			<h2> ★ Sis Puella Magica ★</h2>
  			
  		</div>
  	</div>
  </div>
 
+<?php
+ the_post();
 
-
-
-   <?php
-
-if ( have_posts()) {?>
-
-  <div class="album py-5 bg-light " >
-        <div class="container " >
-         
-           <div class="row mx-auto"  >
-
-
-  <?php
-  while (have_posts()) {
-   ?>
-
-    <div class="row" >
-  <div class="col-4 col-md-12 text-center ">
-              <div class="card mb-4 shadow-sm text-black" >
-                
-                <div class="card-body" > 
-
-
-                   
-                    
-
-  <?php  the_post('');
-
-
+    
 ?>
 
-<b><h2> <?php the_title(); ?></h2></b>
- <img class="card-img-top" height="1%" width="1%" alt="Card image cap " <?php the_post_thumbnail()?>>
 
 
-</div>
-
-<div class="texto">
-  <?php the_excerpt(); ?> 
-</div>
-
-<a href="<?php the_permalink(); ?>" > ver mais</a>
+  <div class="col-md-12">
 
 
-</div>
 
-</div>
-</div>
+ <img class="card-img-top" height="12%"  alt="Card image cap" <?php the_post_thumbnail()?>> 
+<h2> <?php the_title(); ?></h2>
+  <p><?php the_excerpt(); ?> </p> 
+
+<div class="row">
+<?php
+$cont = 0;
+if ( have_posts()) {
+  while (have_posts()) {
+    the_post();
+    $cont++;
+    if ($cont <= 7) {
+      
+    
+?>
+
+
+
+  <div class="col-md-4">
+
+
+
+ <img class="card-img-top" height="45%"  alt="Card image cap" <?php the_post_thumbnail()?>> 
+<h2> <?php the_title(); ?></h2>
+  <p><?php the_excerpt(); ?> </p>
+  
+  <a class="btn btn-danger" href="<?php the_permalink(); ?>">leia mais★</a>
+ </div>
 
 
 <?php
 
+
   }
 }
+} 
 
 ?>
+</div>
+</div>
+
+<hr id="fim">
+
 <br>
 <br>
 
@@ -85,3 +84,4 @@ if ( have_posts()) {?>
 
 
 <?php get_footer();  ?>
+</body>
