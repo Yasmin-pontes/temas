@@ -1,4 +1,5 @@
 <?php get_header();  ?>
+
 <body>
  <div class="row forma">
  	<div class="col-md-12">
@@ -12,11 +13,20 @@
  	</div>
  </div>
 
+
 <?php
  the_post();
 
     
 ?>
+
+ <div class="row">
+            <div class="col-md-12">
+                <?php masterslider(1); ?>
+                <br>
+              </div>
+            </div>
+
 
 
 
